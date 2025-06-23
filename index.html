@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="headline">Guess The Number</h1>
+    </header>
+    <main>
+      <h2 id="gameOutput">
+        I thought of a number from 1 to 100. Try to guess it.
+      </h2>
+      <div class="form">
+        <input type="text" id="userInput" placeholder="Your number" />
+      </div>
+      <div class="buttons">
+        <button onclick="getFormValue()" class="button">Check number</button>
+        <button onclick="reload()" class="button">Think of a new number</button>
+      </div>
+    </main>
+  </body>
+</html>
